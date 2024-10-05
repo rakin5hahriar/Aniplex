@@ -19,3 +19,4 @@ Route::post('/login', [login_controller::class,'login']);
 Route::get('/dashboard', [login_controller::class,'get_dashboard_page']);
 
 Route::get('/logout', [login_controller::class,'logout']);
+
